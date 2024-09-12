@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0"
+  },
+  "name": "jest-esm-mock-repro",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules --no-warnings\" jest"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
